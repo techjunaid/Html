@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<title>Unique Collection</title>
+	<style>
+		body{
+			margin: 0px;
+			padding: 0px;
+			background-image: url(img/fashion.jpg);
+			font-family: 'Fredoka One', cursive;
+		}
+		.left{
+			display: inline-block;
+			/*border: 2px solid red;*/
+			position: absolute;
+			left: 5px;
+			top: 20px;
+			color:white;
+			padding: 10px;
+			padding-left: 18px;
+			font-size: 22px;
+			cursor: pointer;
+
+		}
+		.left:hover{
+			color: grey;
+		}
+		.mid{
+			/*border: 2px solid blue;*/
+			display: block;
+			width: 33%;
+			margin: auto;
+			margin-top: 15px;	
+		}
+		.right{
+			display: inline-block;
+			/*border: 2px solid green;*/
+			position: absolute;
+			right: 14px;
+			top: 28px;	
+
+		}
+		.navbar{
+			display: inline-block;
+		}
+		.navbar li{
+			display: inline-block;
+		}
+		.navbar li a{
+			text-decoration: none;
+			color: white;
+			font-size: 30px;
+			 padding: 20px 12px;
+
+		}
+		.navbar li a:hover{
+			color: black;
+		}
+		.btn{
+			background-color: black;
+			color: white;
+			border: 2px solid black;
+			border-radius: 10px;
+			padding: 6px 11px;
+			font-size: 20px;
+			cursor: pointer;
+			font-family: 'Fredoka One', cursive;
+			border: 2px solid white;
+			margin-top: 29px ; 
+		}
+		.btn:hover{
+			color: grey;
+
+		}
+		.container{
+			border: 3px solid white;
+			margin: 150px 75px;
+			padding: 50px;
+			width: 25%;
+			border-radius: 28px;
+		}
+		.collection{
+			text-align: center;
+			color: red;
+            
+            
+            border-radius: 10px;			
+			font-size: 20px;
+			padding: 0px;
+		}
+
+		.loginform input{
+			font-family: 'Fredoka One', cursive;
+			text-align: center;
+			display: block;
+			width: 280px;
+			padding : 1px;
+			border: 2px solid black;
+			margin: 7px auto;
+			font-size: 25px;
+			border-radius: 8px;
+
+		}
+		.container button{
+			display: block;
+			width: 84%;
+			margin: 20px auto;
+		}
+		
+	</style>
+</head>
+<body>
+	<header class="header">
+	       <div class="left">
+                <h3>Unique Collection</h3>
+           </div>
+        <div class="mid">
+    		<ul class="navbar">
+             	<li> <a href="#">Home</a></li>
+             	<li> <a href="#">About</a></li>
+             	<li> <a href="#">Help</a></li>
+             	<li> <a href="#">Contact us</a></li>
+             	
+             </ul>
+    		
+        </div>
+        <div class="right">
+    		<button class="btn">Call us now</button>
+    		<button class="btn">Email us</button>
+        </div>   
+    
+    
+    	   
+    </header>
+<div class="container">
+	     <div class="collection">
+          <h3>Join us for the best collections</h3>
+      </div>
+       <form action="noaction.php">
+       	<div class="loginform">
+       	  <input type="text" name="" placeholder="create your username">
+       
+        </div>
+        <div class="loginform">
+       	  <input type="Email" name="" placeholder="Enter your Email">
+       
+        </div>
+        <div class="loginform">
+       	  <input type="password" name="" placeholder="Create a password">
+       
+        </div>
+        <div class="loginform">
+       	  <input type="password" name="" placeholder="Repeat your password">
+       
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+
+
+
+</div>
+       	
+       
+    
+</body>
+</html>
